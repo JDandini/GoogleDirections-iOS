@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GoogleDirections-iOS_Example' do
+  pod 'GoogleDirections-iOS', :path => '../'
+
+  target 'GoogleDirections-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
