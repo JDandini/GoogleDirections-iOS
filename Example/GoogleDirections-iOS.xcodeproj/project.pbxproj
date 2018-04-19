@@ -15,6 +15,16 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9D38CF5E41294046A1AB7931 /* Pods_GoogleDirections_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B725D1181B0937A618CE91 /* Pods_GoogleDirections_iOS_Tests.framework */; };
+		CC1A12DA2088F9980049DF15 /* GMRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D02088F9980049DF15 /* GMRoute.swift */; };
+		CC1A12DB2088F9980049DF15 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D12088F9980049DF15 /* Decodable.swift */; };
+		CC1A12DC2088F9980049DF15 /* GMLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D22088F9980049DF15 /* GMLeg.swift */; };
+		CC1A12DD2088F9980049DF15 /* GMGeocodedWayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D32088F9980049DF15 /* GMGeocodedWayPoint.swift */; };
+		CC1A12DE2088F9980049DF15 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D42088F9980049DF15 /* Network.swift */; };
+		CC1A12DF2088F9980049DF15 /* GMDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D52088F9980049DF15 /* GMDirection.swift */; };
+		CC1A12E02088F9980049DF15 /* GMStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D62088F9980049DF15 /* GMStep.swift */; };
+		CC1A12E12088F9980049DF15 /* GoogleDirectionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D72088F9980049DF15 /* GoogleDirectionsRequest.swift */; };
+		CC1A12E22088F9980049DF15 /* GoogleMapsDirectionsMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D82088F9980049DF15 /* GoogleMapsDirectionsMode.swift */; };
+		CC1A12E32088F9980049DF15 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A12D92088F9980049DF15 /* NetworkRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +51,20 @@
 		607FACE51AFB9204008FA782 /* GoogleDirections-iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleDirections-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6284EDBA77BB4CA777CBEE64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		73147A9544E4B1C16B5BEE96 /* GoogleDirections-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "GoogleDirections-iOS.podspec"; path = "../GoogleDirections-iOS.podspec"; sourceTree = "<group>"; };
+		6284EDBA77BB4CA777CBEE64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73147A9544E4B1C16B5BEE96 /* GoogleDirections-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "GoogleDirections-iOS.podspec"; path = "../GoogleDirections-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92690781836DFD6CF4AA36F3 /* Pods-GoogleDirections-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirections-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirections-iOS_Tests/Pods-GoogleDirections-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E44D1BB4C86011AE709E77E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9E44D1BB4C86011AE709E77E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC1A12D02088F9980049DF15 /* GMRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMRoute.swift; sourceTree = "<group>"; };
+		CC1A12D12088F9980049DF15 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		CC1A12D22088F9980049DF15 /* GMLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMLeg.swift; sourceTree = "<group>"; };
+		CC1A12D32088F9980049DF15 /* GMGeocodedWayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMGeocodedWayPoint.swift; sourceTree = "<group>"; };
+		CC1A12D42088F9980049DF15 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CC1A12D52088F9980049DF15 /* GMDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDirection.swift; sourceTree = "<group>"; };
+		CC1A12D62088F9980049DF15 /* GMStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMStep.swift; sourceTree = "<group>"; };
+		CC1A12D72088F9980049DF15 /* GoogleDirectionsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDirectionsRequest.swift; sourceTree = "<group>"; };
+		CC1A12D82088F9980049DF15 /* GoogleMapsDirectionsMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsDirectionsMode.swift; sourceTree = "<group>"; };
+		CC1A12D92088F9980049DF15 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		E51488A2BBA87EAF3989E0CE /* Pods-GoogleDirections-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirections-iOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirections-iOS_Tests/Pods-GoogleDirections-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F49FFB47027CA3C5F6B24A0D /* Pods_GoogleDirections_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDirections_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +92,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				CC1A12CF2088F9980049DF15 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GoogleDirections-iOS */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +178,24 @@
 				E51488A2BBA87EAF3989E0CE /* Pods-GoogleDirections-iOS_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC1A12CF2088F9980049DF15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC1A12D02088F9980049DF15 /* GMRoute.swift */,
+				CC1A12D12088F9980049DF15 /* Decodable.swift */,
+				CC1A12D22088F9980049DF15 /* GMLeg.swift */,
+				CC1A12D32088F9980049DF15 /* GMGeocodedWayPoint.swift */,
+				CC1A12D42088F9980049DF15 /* Network.swift */,
+				CC1A12D52088F9980049DF15 /* GMDirection.swift */,
+				CC1A12D62088F9980049DF15 /* GMStep.swift */,
+				CC1A12D72088F9980049DF15 /* GoogleDirectionsRequest.swift */,
+				CC1A12D82088F9980049DF15 /* GoogleMapsDirectionsMode.swift */,
+				CC1A12D92088F9980049DF15 /* NetworkRequest.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,11 +373,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirections-iOS_Example/Pods-GoogleDirections-iOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleDirections-iOS/GoogleDirections_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDirections_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,8 +413,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1A12DD2088F9980049DF15 /* GMGeocodedWayPoint.swift in Sources */,
+				CC1A12DF2088F9980049DF15 /* GMDirection.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CC1A12DB2088F9980049DF15 /* Decodable.swift in Sources */,
+				CC1A12E02088F9980049DF15 /* GMStep.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CC1A12E12088F9980049DF15 /* GoogleDirectionsRequest.swift in Sources */,
+				CC1A12DA2088F9980049DF15 /* GMRoute.swift in Sources */,
+				CC1A12DE2088F9980049DF15 /* Network.swift in Sources */,
+				CC1A12E22088F9980049DF15 /* GoogleMapsDirectionsMode.swift in Sources */,
+				CC1A12E32088F9980049DF15 /* NetworkRequest.swift in Sources */,
+				CC1A12DC2088F9980049DF15 /* GMLeg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

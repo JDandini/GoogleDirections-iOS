@@ -1,0 +1,6 @@
+framework module GoogleDirections_iOS {
+  umbrella header "GoogleDirections-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

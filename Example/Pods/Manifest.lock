@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.7.1)
+  - GoogleDirections-iOS (1.0):
+    - Alamofire
+    - Unbox
+  - Unbox (2.5.0)
+
+DEPENDENCIES:
+  - GoogleDirections-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleDirections-iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  GoogleDirections-iOS: 12ed980c3918a7cf7b67e25ff272083c6484a50f
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+
+PODFILE CHECKSUM: 82b43f6e65657e92380a69531985126033fdec3a
+
+COCOAPODS: 1.4.0
